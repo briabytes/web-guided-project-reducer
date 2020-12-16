@@ -10,6 +10,8 @@ const Title = () => {
     title: 'Hello earthlings!'
   }
 
+  const [state, dispatch] = useReducer(titleReducer,)
+
   const handleChanges = e => {
     setNewTitleText(e.target.value);
   };

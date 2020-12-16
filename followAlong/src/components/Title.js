@@ -8,7 +8,7 @@ const Title = () => {
 
   const intitialState = {
     editing: false,
-    title: 'Hello earthlings!'
+    title: 'Hello from the reducer!'
   }
 
   const [state, dispatch] = useReducer(titleReducer, intitialState);

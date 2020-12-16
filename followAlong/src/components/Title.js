@@ -13,7 +13,7 @@ const Title = () => {
   }
 
   const [state, dispatch] = useReducer(titleReducer, initialState);
-  // kind of like: [value, setValue] = useState(initialValue);
+  // Similar format to: [value, setValue] = useState(initialValue);
 
   const handleChanges = e => {
     setNewTitleText(e.target.value);

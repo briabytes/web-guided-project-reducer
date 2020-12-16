@@ -1,4 +1,4 @@
-import {TOGGLE_EDITING, UPDATE_TITLE} from "../actions/titleActions"
+import {TOGGLE_EDITING, UPDATE_TITLE} from "../actions/titleActions";
 
 const titleReducer = (state, action) => {
   // based on action.type, build & return a new state object

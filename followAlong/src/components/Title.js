@@ -1,8 +1,8 @@
 import React, { useState, useReducer } from 'react';
 
 const Title = () => {
-  const [title, setTitle] = useState('Hello earthlings!');
-  const [editing, setEditing] = useState(false);
+  //const [title, setTitle] = useState('Hello earthlings!');
+  //const [editing, setEditing] = useState(false);
   const [newTitleText, setNewTitleText] = useState('');
 
   const intitialState = {

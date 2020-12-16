@@ -36,7 +36,7 @@ const Title = () => {
             onChange={handleChanges}
           />
           <button
-            onClick={() => dispatch({type: 'UPDATE_TITLE', payload: newTitleText})}
+            onClick={() => dispatch(updateTitle(newTitleText))}
           >
             Update title
           </button>

@@ -1,4 +1,5 @@
 import React, { useState, useReducer } from 'react';
+import titleReducer from '../reducers/titleReducer';
 
 const Title = () => {
   //const [title, setTitle] = useState('Hello earthlings!');
@@ -10,7 +11,7 @@ const Title = () => {
     title: 'Hello earthlings!'
   }
 
-  const [state, dispatch] = useReducer(titleReducer,)
+  const [state, dispatch] = useReducer(titleReducer)
 
   const handleChanges = e => {
     setNewTitleText(e.target.value);

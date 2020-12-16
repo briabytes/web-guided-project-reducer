@@ -5,9 +5,9 @@ const titleReducer = (state, action) => {
   // building a new object from scratch every time is the "immutable state" pattern
   switch(action.type) {
     case('TOGGLE_EDITING'):
-      return state;
+      return {...state};
     case('UPDATE_TITLE'):
-      return state;
+      return {...state};
     default:
       return state;
   }

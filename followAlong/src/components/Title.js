@@ -19,9 +19,9 @@ const Title = () => {
 
   return (
     <div>
-      {!editing ? (
+      {!state.editing ? (
         <h1>
-          {title}{' '}
+          {state.title}{' '}
           <i onClick={() => setEditing(!editing)} className="far fa-edit" />
         </h1>
       ) : (

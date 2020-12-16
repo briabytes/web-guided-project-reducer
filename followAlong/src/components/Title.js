@@ -1,5 +1,6 @@
 import React, { useState, useReducer } from 'react';
 import titleReducer from '../reducers/titleReducer';
+import {toggleEditing, updateTitle} from "../actions/titleActions"
 
 const Title = () => {
   //const [title, setTitle] = useState('Hello earthlings!');

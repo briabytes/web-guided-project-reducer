@@ -6,12 +6,12 @@ const Title = () => {
   //const [editing, setEditing] = useState(false);
   const [newTitleText, setNewTitleText] = useState('');
 
-  const intitialState = {
+  const initialState = {
     editing: false,
     title: 'Hello from the reducer!'
   }
 
-  const [state, dispatch] = useReducer(titleReducer, intitialState);
+  const [state, dispatch] = useReducer(titleReducer, initialState);
 
   const handleChanges = e => {
     setNewTitleText(e.target.value);

@@ -5,6 +5,11 @@ const Title = () => {
   const [editing, setEditing] = useState(false);
   const [newTitleText, setNewTitleText] = useState('');
 
+  const intitialState = {
+    editing: false,
+    title: 'Hello earthlings!'
+  }
+
   const handleChanges = e => {
     setNewTitleText(e.target.value);
   };
